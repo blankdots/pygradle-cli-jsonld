@@ -1,0 +1,14 @@
+<http://example.org/library/the-republic#introduction>
+        <http://purl.org/dc/elements/1.1/description>  "An introductory chapter on The Republic." ;
+        <http://purl.org/dc/elements/1.1/title>  "The Introduction" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://example.org/vocab#Chapter> .
+
+<http://example.org/library/the-republic>
+        <http://example.org/vocab#contains>  <http://example.org/library/the-republic#introduction> ;
+        <http://purl.org/dc/elements/1.1/creator>  "Plato" ;
+        <http://purl.org/dc/elements/1.1/title>  "The Republic" ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://example.org/vocab#Book> .
+
+<http://example.org/library>
+        <http://example.org/vocab#contains>  <http://example.org/library/the-republic> ;
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://example.org/vocab#Library> .
