@@ -8,7 +8,7 @@ from rdflib import ConjunctiveGraph
 @click.command()
 @click.option('--frame', help='Location of JSON-LD frame', type=click.File('rb'))
 @click.option('--data', help='Location of the RDF file', type=click.File('rb'))
-@click.option('--output', help='Filename for output. Default is output.jsonld', default="output.jsonld")
+@click.option('--output', help='File name for output. Default is `output.jsonld`', default="output.jsonld")
 def cli(frame, data, output):
     """Run the server with options."""
     output_file = open(output, 'w')
