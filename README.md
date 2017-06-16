@@ -2,6 +2,10 @@
 
 Example of of building a CLI tool for applying a JSON-LD frame on RDF data (RDF needs to be serialised as turtle).
 
+To Do:
+* write tests
+* generate documentation from source code
+
 ## Building and Running the application
 
 ### Requirements
